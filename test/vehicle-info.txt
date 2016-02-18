@@ -1,0 +1,7 @@
+{
+  "vin": "123123412412",
+  "color": "Metallic Silver",
+  "doorCount": 4,
+  "driveTrain": "v8"
+}
+
