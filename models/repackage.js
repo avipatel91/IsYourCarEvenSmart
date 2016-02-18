@@ -23,6 +23,21 @@ module.exports = {
       }
     ];
     res.send(payload);
+  },
+  
+  fuel: function(body, res){
+    var payload = { percent: body.data.tankLevel.value};
+    res.send(payload);
+  },
+
+  battery: function(body, res){
+    var payload = { percent: body.data.batteryLevel.value};
+    res.send(payload);
+  },
+
+  engine: function(body, res){
+    var payload = { status: body.actionResult};
+    res.send(payload);
   }
 };
 
