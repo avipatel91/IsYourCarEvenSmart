@@ -36,7 +36,7 @@ module.exports = {
   },
 
   engine: function(body, res){
-    var payload = { status: body.actionResult};
+    var payload =  body.actionResult;
     res.send(payload);
   }
 };
