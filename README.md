@@ -43,11 +43,11 @@ IsYourCarEvenSmart calls GM apis and repackages them into a cleaner format.
 
 
 
-### Here are a list of things I would have done if this was production:
+### Here is a list of things I would have done if this was production:
        
        1. Have an actual db such as postgres to store ids. 
        
-       2. Create a in-mem cache such as Redis to store most recently used ids.
+       2. Use a in-mem cache such as Redis to store most recently used ids.
           This will help us minimize hitting the backend for frequently used ids.
        
        3. Set up a reverse proxy with AWS ELB (load balancer) to help scale horizontally
