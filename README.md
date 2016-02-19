@@ -39,6 +39,7 @@ IsYourCarEvenSmart calls GM apis and repackages them into a cleaner format.
 		
 		This uses mocha, should, supertest, and fs for TDD.
           The first test checks response of vehicle info against json in a local file.
+          Rest of the tests do not check against a json since the values can change every other call.
           The rest of the tests should be self-explanatory since Mocha and Should are pretty verbose.
 
 
