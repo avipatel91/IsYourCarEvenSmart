@@ -3,10 +3,6 @@ var should = require('should');
 var fs = require('fs');
 
 //Lets agent know the port the program is running on.
-/*** NOTE:THE KEYS or VALUES FOR SOME API CALLS TO GM SWAP SO EXPECT SOME TESTS TO FAIL SO
-          SOME TESTS MIGHT GIVE FALSE POSITIVES
-***/
-
 
 var server = supertest.agent('http://localhost:3000');
 
