@@ -2,7 +2,23 @@
 
 IsYourCarEvenSmart calls GM apis and repackages them into a cleaner format.
 
+### Install dependencies and run application (Runs on Node v5.6.0)
+Note: You might have to remove node_modules directory before executing the following commands since I included it in this repository. 
 
+From project root:
+
+```sh
+npm install
+npm start
+```
+### Run tests
+
+From project root:
+
+```sh
+node_modules/mocha/bin/mocha
+
+```
 ### Location of my code: 
      * routes/api.js
      * models/apiCalls.js
