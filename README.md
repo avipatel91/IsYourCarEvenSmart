@@ -12,6 +12,7 @@ npm install
 npm start
 ```
 ### Run tests
+Note: Make sure the app is already running before running tests. 
 
 From project root:
 
