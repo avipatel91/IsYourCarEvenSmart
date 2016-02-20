@@ -2,7 +2,7 @@
 
 IsYourCarEvenSmart calls GM apis and repackages them into a cleaner format.
 
-### Install dependencies and run application (Runs on Node v5.6.0)
+### Install dependencies and run application (Runs on Node v5.6.0):
 Note: You might have to remove node_modules directory before executing the following commands since I included it in this repository. 
 
 From project root:
@@ -11,7 +11,7 @@ From project root:
 npm install
 npm start
 ```
-### Run tests
+### Run tests:
 Note: Make sure the app is already running before running tests. 
 
 From project root:
